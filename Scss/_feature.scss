@@ -1,0 +1,57 @@
+.feature {
+  &-container {
+    padding: 80px 0 104px;
+  }
+  &-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    gap: 16px 0;
+    margin-bottom: 64px;
+  }
+
+  &-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .item-img {
+    margin-bottom: 12px;
+  }
+  .item-name {
+    font-family: $font-heading;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  &-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 24px 0;
+    .text {
+      padding: 0 20px;
+      margin-bottom: 40px;
+    }
+  }
+  &-card {
+    .card-item {
+      display: flex;
+      flex-direction: column;
+      gap: 12px 0;
+      text-align: center;
+      .card-text {
+        font-family: $font-heading;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+  }
+}

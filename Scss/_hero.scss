@@ -1,0 +1,48 @@
+.hero {
+  margin-bottom: 37px;
+  position: relative;
+  &-container {
+    padding: 80px 0 64px;
+    margin: 0 auto;
+    // position: relative;
+    .bg-shape-c {
+      position: absolute;
+      top: 0;
+      left: 53px;
+    }
+    .bg-shape-v {
+      position: absolute;
+      top: 30px;
+      right: 167px;
+    }
+    .bg-shape-w {
+      position: absolute;
+      bottom: -61px;
+      left: -16px;
+    }
+    .bg-shape-diamond {
+      position: absolute;
+      bottom: -61px;
+      right: 33px;
+    }
+  }
+  &-content {
+    margin: 0 auto;
+    text-align: center;
+
+    h1,
+    p {
+      margin-bottom: 32px;
+      padding: 0 100px;
+    }
+  }
+  &-title {
+    font-family: $font-heading;
+    color: $text-hedding;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    text-shadow: -5px 5px 0px #ffffff;
+  }
+}
