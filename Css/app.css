@@ -11151,10 +11151,32 @@ table {
   line-height: 36px;
 }
 
-.comment-container h1, .comment-container .h1 {
+.twitter-container h1, .twitter-container .h1 {
   padding: 80px 0;
   text-align: center;
   margin-bottom: 0;
+}
+.twitter-item {
+  background: #ffffff;
+  border: 1px solid #d6bcfa;
+  border-radius: 10px;
+  padding: 24px;
+}
+.twitter-header {
+  display: flex;
+  align-items: center;
+}
+.twitter-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.twitter-id {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=app.css.map */
