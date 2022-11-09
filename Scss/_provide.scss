@@ -1,0 +1,14 @@
+.provide{
+  &-footer {
+      display: flex;
+      flex-direction: column;
+      padding-top: 80px;
+      margin: 0 auto;
+      text-align: center;
+      gap: 24px 0;
+      .text {
+        padding: 0 20px;
+        margin-bottom: 40px;
+      }
+    }
+}

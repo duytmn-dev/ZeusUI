@@ -1,0 +1,124 @@
+{
+  "itemTwitter": [
+    {
+      "id": "1",
+      "img": "./Assets/icon/Avatar-tw.svg",
+      "name": "Brooklyn Simmons",
+      "twID": "@brooklynsimmons",
+      "text": "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci."
+    },
+
+    {
+      "id": "3",
+      "img": "./Assets/icon/Avatar-tw2.svg",
+      "name": "Esther Howard",
+      "twID": "@estherhhoward",
+      "text": "Vitae tellus bibendum nibh integer auctor pretium sed. Sollicitudin tristique euismod elit."
+    },
+    {
+      "id": "4",
+      "img": "./Assets/icon/Avatar-tw3.svg",
+      "name": "Kristin Watson",
+      "twID": "@KristinWatson",
+      "text": "Lectus dolor fermentum gravida ut sit vel. Enim. Lorem ipsum will never be the same again so purchase Zeus UI now or web trying."
+    },
+    {
+      "id": "5",
+      "img": "./Assets/icon/Avatar-tw4.svg",
+      "name": "Dianne Russell",
+      "twID": "@DianneRussell",
+      "text": "Eu luctus tincidunt vulputate praesent interdum proin. Magna gravida at pretium vitae. Viverra."
+    },
+    {
+      "id": "6",
+      "img": "./Assets/icon/Avatar-tw5.svg",
+      "name": "Arlene McCoy",
+      "twID": "@ArleneMcCoy",
+      "text": "Eu eu eget lorem commodo sagittis enim in viverra. Urna egestas ipsum gravida tempor. Libero, consectetur urna in enim magnis. Est."
+    },
+    {
+      "id": "7",
+      "img": "./Assets/icon/Avatar-tw6.svg",
+      "name": "Leslie Alexander",
+      "twID": "@LeslieAlexander",
+      "text": "Varius bibendum quis ipsum sit. Enim ante donec erat neque semper. Consectetur sed imperdiet tortor duis nulla aliquet at integer. "
+    },
+    {
+      "id": "8",
+      "img": "./Assets/icon/Avatar-tw7.svg",
+      "name": "BEleanor Pena",
+      "twID": "@EleanorPena",
+      "text": "Amet quam velit nisl et et. Fusce ante facilisi vulputate eget aliquet mi sem eu vulputate."
+    },
+    {
+      "id": "9",
+      "img": "./Assets/icon/Avatar-tw8.svg",
+      "name": "Jane Cooper",
+      "twID": "@JaneCooper",
+      "text": "Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis. "
+    },
+    {
+      "id": "2",
+      "img": "./Assets/icon/Avatar-tw9.svg",
+      "name": "Darlene Robertson",
+      "twID": "@DarleneRobertson",
+      "text": "Imperdiet sed tellus tempor vitae elit a. Arcu a."
+    }
+  ],
+  "feature": [
+    {
+      "id": 1,
+      "avt": "./Assets/img/f-atv1.png",
+      "name": "Moonbirds",
+      "desc": "Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit."
+    },
+    {
+      "id": 2,
+      "avt": "./Assets/img/f-atv2.png",
+      "name": "Clone X - X Takashi Murakami",
+      "desc": "Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac."
+    },
+    {
+      "id": 3,
+      "avt": "./Assets/img/f-atv3.png",
+      "name": "Mutant Ape Yacht Club",
+      "desc": "Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus."
+    },
+    {
+      "id": 4,
+      "avt": "./Assets/img/f-atv4.png",
+      "name": "MOAR by Joan Cornella",
+      "desc": "Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit."
+    },
+    {
+      "id": 5,
+      "avt": "./Assets/img/f-atv5.png",
+      "name": "Doodles",
+      "desc": "Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac."
+    },
+    {
+      "id": 6,
+      "avt": "./Assets/img/f-atv6.png",
+      "name": "KIWAMI Genesis",
+      "desc": "Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus."
+    },
+    {
+      "id": 7,
+      "avt": "./Assets/img/f-atv7.png",
+      "name": "Arcade Land",
+      "desc": "Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis fringilla pulvinar nibh diam sit."
+    },
+    {
+      "id": 8,
+      "avt": "./Assets/img/f-atv8.png",
+      "name": "Goons of Balatroon",
+      "desc": "Magna in condimentum praesent pretium vitae mattis facilisis nunc. Lectus in ac ac."
+    },
+    {
+      "id": 9,
+      "avt": "./Assets/img/f-atv9.png",
+      "name": "Meta Toy DragonZ",
+      "desc": "Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget cursus nulla risus euismod. Netus."
+    }
+  ]
+}

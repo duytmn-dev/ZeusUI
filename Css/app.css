@@ -11099,7 +11099,7 @@ table {
 }
 
 .feature-container {
-  padding: 80px 0 104px;
+  padding-top: 80px;
 }
 .feature-header {
   display: flex;
@@ -11125,18 +11125,6 @@ table {
   font-size: 32px;
   line-height: 42px;
 }
-.feature-footer {
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
-  margin: 0 auto;
-  text-align: center;
-  gap: 24px 0;
-}
-.feature-footer .text {
-  padding: 0 20px;
-  margin-bottom: 40px;
-}
 .feature-card .card-item {
   display: flex;
   flex-direction: column;
@@ -11151,10 +11139,38 @@ table {
   line-height: 36px;
 }
 
+.provide-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 24px 0;
+}
+.provide-footer .text {
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.twitter-container {
+  position: relative;
+}
 .twitter-container h1, .twitter-container .h1 {
   padding: 80px 0;
   text-align: center;
   margin-bottom: 0;
+}
+.twitter-container:after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.twitter-list {
+  padding-bottom: 104px;
 }
 .twitter-item {
   background: #ffffff;
