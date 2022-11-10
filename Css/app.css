@@ -11158,31 +11158,30 @@ table {
   margin-bottom: 40px;
 }
 
-.twitter-container {
-  position: relative;
-}
 .twitter-container h1, .twitter-container .h1 {
   padding: 80px 0;
   text-align: center;
   margin-bottom: 0;
 }
-.twitter-container:after {
+.twitter-list {
+  padding-bottom: 104px;
+  position: relative;
+}
+.twitter-list:after {
   content: "";
   position: absolute;
   background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
-  top: 30%;
+  top: 20%;
   left: 0;
   right: 0;
   bottom: 0;
-}
-.twitter-list {
-  padding-bottom: 104px;
 }
 .twitter-item {
   background: #ffffff;
   border: 1px solid #d6bcfa;
   border-radius: 10px;
   padding: 24px;
+  margin-bottom: 32px;
 }
 .twitter-header {
   display: flex;
@@ -11230,7 +11229,7 @@ table {
 
 .footer-container {
   padding: 80px 0 40px;
-  border-bottom: 1px solid #CCD5DF;
+  border-bottom: 1px solid #ccd5df;
 }
 .footer-left .footer-list {
   display: flex;

@@ -1,41 +1,41 @@
-@mixin footer-list {
-  display: flex;
-  gap: 0 24px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.footer {
-  &-container {
-    padding: 80px 0 40px;
-    border-bottom: 1px solid #CCD5DF;
+  @mixin footer-list {
+    display: flex;
+    gap: 0 24px;
+    padding: 10px 0;
+    margin: 0;
   }
 
-  &-left {
-    .footer-list {
-      @include footer-list;
+  .footer {
+    &-container {
+      padding: 80px 0 40px;
+      border-bottom: 1px solid #ccd5df;
+    }
+
+    &-left {
+      .footer-list {
+        @include footer-list;
+      }
+    }
+
+    &-img {
+      text-align: center;
+    }
+
+    &-right {
+      .footer-list {
+        @include footer-list;
+        justify-content: end;
+      }
+    }
+
+    .copyRight {
+      text-align: center;
+      font-family: $font;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      padding: 40px 0;
     }
   }
-
-  &-img {
-    text-align: center;
-  }
-
-  &-right {
-    .footer-list {
-      @include footer-list;
-      justify-content: end;
-    }
-  }
-
-  .copyRight {
-    text-align: center;
-    font-family: $font;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, .5);
-    padding: 40px 0;
-  }
-}

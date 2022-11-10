@@ -1,14 +1,20 @@
-import data from "./data.json" assert { type: "json" };
+import data from "./data.json" assert {type: "json"};
 
 function addTwitter(obj) {
   const mainTwitter = document.getElementById("twitter");
-  const containerTwitter = mainTwitter.querySelector(".twitter-container");
-  if (containerTwitter) {
-    const itemTwitter = document.createElement("div");
-    obj.map((item) => {
-      itemTwitter.classList.add("twitter-list", "row", "g-3");
-      itemTwitter.innerHTML += ` 
-              <div class="col-lg-4">
+  const listTwitter = mainTwitter.querySelectorAll(".col-lg-4");
+
+  if (listTwitter) {
+    const itemtTwitter = ["itemTwitter", "itemTwitter1", "itemTwitter2"];
+
+    itemtTwitter.map((x, i) => {
+      x = document.createElement("div");
+
+      obj.map((item, index) => {
+        const col = index % 3;
+        if (col == i) {
+          x.classList.add("twitter-col");
+          x.innerHTML += `
                 <div class="twitter-item">
                   <div class="twitter-header">
                     <div class="twitter-avt">
@@ -19,12 +25,75 @@ function addTwitter(obj) {
                       <h3 class="twitter-id text">${item.twID}</h3>
                     </div>
                   </div>
-                  <p class="text">${item.text} </p>
+                  <p class="text">${item.text}</p>
                 </div>
-              </div>
-              `;
-      return containerTwitter.appendChild(itemTwitter);
+                `;
+          return listTwitter[i].appendChild(x);
+        }
+      });
     });
+    /* Bản mở rộng  */
+
+    // obj.map( ( item, index ) => {
+    //   const col = index % 3;
+    //   itemTwitter.classList.add( "twitter-col" );
+    //   itemTwitter1.classList.add( "twitter-col" );
+    //   itemTwitter2.classList.add( "twitter-col" );
+    //   if ( col == 0 )
+    //   {
+    //     itemTwitter.innerHTML += `
+    //            <div class="twitter-item">
+    //                 <div class="twitter-header">
+    //                   <div class="twitter-avt">
+    //                     <img src="${ item.img }" alt="" />
+    //                   </div>
+    //                   <div class="twitter-info">
+    //                     <h3 class="twitter-name">${ item.name }</h3>
+    //                     <h3 class="twitter-id text">${ item.twID }</h3>
+    //                   </div>
+    //                 </div>
+    //                 <p class="text">${ item.text }</p>
+    //               </div>
+    //             `;
+    //     return listTwitter[ col ].appendChild( itemTwitter );
+    //   }
+    //   if ( col == 1 )
+    //   {
+    //     itemTwitter1.innerHTML += `
+    //            <div class="twitter-item">
+    //                 <div class="twitter-header">
+    //                   <div class="twitter-avt">
+    //                     <img src="${ item.img }" alt="" />
+    //                   </div>
+    //                   <div class="twitter-info">
+    //                     <h3 class="twitter-name">${ item.name }</h3>
+    //                     <h3 class="twitter-id text">${ item.twID }</h3>
+    //                   </div>
+    //                 </div>
+    //                 <p class="text">${ item.text }</p>
+    //               </div>
+    //             `;
+    //     return listTwitter[ col ].appendChild( itemTwitter1 );
+    //   }
+    //   if ( col == 2 )
+    //   {
+    //     itemTwitter2.innerHTML += `
+    //            <div class="twitter-item">
+    //                 <div class="twitter-header">
+    //                   <div class="twitter-avt">
+    //                     <img src="${ item.img }" alt="" />
+    //                   </div>
+    //                   <div class="twitter-info">
+    //                     <h3 class="twitter-name">${ item.name }</h3>
+    //                     <h3 class="twitter-id text">${ item.twID }</h3>
+    //                   </div>
+    //                 </div>
+    //                 <p class="text">${ item.text }</p>
+    //               </div>
+    //             `;
+    //     return listTwitter[ col ].appendChild( itemTwitter2 );
+    //   }
+    // } );
   }
 }
 
