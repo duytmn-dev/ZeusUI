@@ -2,6 +2,7 @@
   margin-bottom: 37px;
   padding-top: 18px;
   border-bottom: 1px solid #f8e0fb;
+
   &-container {
     .menu-left {
       &-list {
@@ -11,13 +12,11 @@
         padding-left: 0;
       }
     }
+
     li {
       padding: 12px;
-      a {
-        text-decoration: none;
-        color: $text-gray;
-      }
     }
+
     .menu-right {
       &-list {
         display: flex;
@@ -27,14 +26,17 @@
       }
     }
   }
+
   &-img {
     text-align: center;
   }
 }
+
 .dropdown {
   button {
-    background-color: $white-color;
+    background-color: transparent;
     border: none;
     color: $text-gray;
+    font-family: $font;
   }
 }

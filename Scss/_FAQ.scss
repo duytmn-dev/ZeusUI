@@ -1,0 +1,17 @@
+.FAQ {
+  &-content {
+    h1 {
+      font-weight: 600;
+      font-size: 44px;
+    }
+  }
+
+  &-list {}
+
+  &-dropdown {
+    padding: 24px;
+    text-align: center;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+  }
+}

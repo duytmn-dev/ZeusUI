@@ -4,6 +4,7 @@
   box-shadow: -20px 20px 0px rgba(82, 79, 61, 0.1);
   border-radius: 20px;
 }
+
 .containers {
   max-width: 1340px;
   padding: 0 20px;
@@ -16,6 +17,7 @@ body {
   color: $text-color;
   font-weight: 400;
 }
+
 .btn-zeus {
   background-color: #532c59;
   color: $white-color;
@@ -28,11 +30,13 @@ body {
   font-size: 16px;
   line-height: 20px;
   position: relative;
+
   &:hover {
     color: $white-color;
     background-color: #532c59;
   }
 }
+
 .text {
   line-height: 24px;
   color: $text-color;
@@ -40,6 +44,7 @@ body {
   font-weight: 400;
   font-family: $font;
 }
+
 .text-title {
   font-weight: 700;
   font-size: 48px;
@@ -47,6 +52,7 @@ body {
   line-height: 64px;
   color: $text-hedding;
 }
+
 .text-desc {
   font-family: $font;
   font-style: normal;
@@ -54,4 +60,13 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: $text-color;
+}
+
+.text-menu {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text-gray;
+  text-decoration: none;
 }

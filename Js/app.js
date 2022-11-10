@@ -1,4 +1,4 @@
-import data from "./twitter.json" assert { type: "json" };
+import data from "./data.json" assert { type: "json" };
 
 function addTwitter(obj) {
   const mainTwitter = document.getElementById("twitter");

@@ -1,0 +1,19 @@
+.CTA {
+  padding: 80px 0;
+
+  &-container {
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+  }
+
+  &-content {
+    padding: 117px 0;
+    text-align: center;
+
+    .text {
+      margin: 0 -15px 32px;
+    }
+  }
+
+}

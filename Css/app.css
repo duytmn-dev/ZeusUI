@@ -10834,6 +10834,15 @@ body {
   color: #532c59;
 }
 
+.text-menu {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
 html,
 body,
 div,
@@ -10988,10 +10997,6 @@ table {
 .header-container li {
   padding: 12px;
 }
-.header-container li a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
-}
 .header-container .menu-right-list {
   display: flex;
   gap: 0 8px;
@@ -11003,9 +11008,10 @@ table {
 }
 
 .dropdown button {
-  background-color: #ffffff;
+  background-color: transparent;
   border: none;
   color: rgba(0, 0, 0, 0.5);
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .hero {
@@ -11193,6 +11199,64 @@ table {
 .twitter-id {
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.FAQ-content h1, .FAQ-content .h1 {
+  font-weight: 600;
+  font-size: 44px;
+}
+.FAQ-dropdown {
+  padding: 24px;
+  text-align: center;
+  border: 1px solid #D6BCFA;
+  border-radius: 15px;
+}
+
+.CTA {
+  padding: 80px 0;
+}
+.CTA-container {
+  border: 1px solid #D6BCFA;
+  box-shadow: inset 0px 0px 50px #F8E0FA;
+  border-radius: 60px;
+}
+.CTA-content {
+  padding: 117px 0;
+  text-align: center;
+}
+.CTA-content .text {
+  margin: 0 -15px 32px;
+}
+
+.footer-container {
+  padding: 80px 0 40px;
+  border-bottom: 1px solid #CCD5DF;
+}
+.footer-left .footer-list {
+  display: flex;
+  gap: 0 24px;
+  padding: 10px 0;
+  margin: 0;
+}
+.footer-img {
+  text-align: center;
+}
+.footer-right .footer-list {
+  display: flex;
+  gap: 0 24px;
+  padding: 10px 0;
+  margin: 0;
+  justify-content: end;
+}
+.footer .copyRight {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 40px 0;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,12 +1,14 @@
 .twitter {
   &-container {
     position: relative;
+
     h1 {
       padding: 80px 0;
       text-align: center;
       margin-bottom: 0;
     }
-    &:after{
+
+    &:after {
       content: "";
       position: absolute;
       background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
@@ -16,19 +18,23 @@
       bottom: 0;
     }
   }
+
   &-list {
     padding-bottom: 104px;
   }
+
   &-item {
     background: #ffffff;
     border: 1px solid #d6bcfa;
     border-radius: 10px;
     padding: 24px;
   }
+
   &-header {
     display: flex;
     align-items: center;
   }
+
   &-name {
     font-family: $font;
     font-style: normal;
@@ -37,8 +43,9 @@
     line-height: 20px;
     margin-bottom: 0;
   }
+
   &-id {
     margin-bottom: 0;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, .5);
   }
 }

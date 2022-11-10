@@ -58,11 +58,32 @@
       "text": "Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis. "
     },
     {
-      "id": "2",
+      "id": "10",
       "img": "./Assets/icon/Avatar-tw9.svg",
-      "name": "Darlene Robertson",
+      "name": "Keith Quitzon",
+      "twID": "@CisgenderMan",
+      "text": "Odit neque necessitatibus eum nobis sed consequatur recusandae magnam odit. Nam voluptatem quo quis voluptates pariatur quaerat id et earum. Consequatur asperiores ab."
+    },
+    {
+      "id": "11",
+      "img": "./Assets/icon/Avatar-tw9.svg",
+      "name": "DEmily Hane",
       "twID": "@DarleneRobertson",
-      "text": "Imperdiet sed tellus tempor vitae elit a. Arcu a."
+      "text": "Eum nostrum impedit voluptatem. Nam et et minima qui at nesciunt. Ad maiores ad. Dolorum aut quam qui voluptatem delectus odio. Repudiandae et ut deserunt laudantium atque laudantium. Nostrum delectus consectetur quisquam est totam exercitationem sunt voluptatum vitae."
+    },
+    {
+      "id": "12",
+      "img": "./Assets/icon/Avatar-tw9.svg",
+      "name": "Ms. Dianne Kassulke",
+      "twID": "@DarleneRobertson",
+      "text": "Dolores et quia. Quisquam fuga officiis maxime. Deleniti quidem consequatur tempore."
+    },
+    {
+      "id": "13",
+      "img": "./Assets/icon/Avatar-tw9.svg",
+      "name": "Ms. Mathew Kunze",
+      "twID": "@DarleneRobertson",
+      "text": "Non autem aperiam et eum tempore aut rem perspiciatis accusamus. Ducimus aut non temporibus. Dolorem modi quasi quo sapiente rerum reprehenderit minima eos neque. Eum quia nemo a laboriosam dolorem omnis."
     }
   ],
   "feature": [
