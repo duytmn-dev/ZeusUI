@@ -1,14 +1,13 @@
 .hero {
   margin-bottom: 37px;
   position: relative;
-
   &-container {
     padding: 80px 0 64px;
     margin: 0 auto;
 
     .bg-shape-c {
       position: absolute;
-      top: 0;
+      top: -32px;
       left: 53px;
     }
 
@@ -38,7 +37,7 @@
     h1,
     p {
       margin-bottom: 32px;
-      padding: 0 100px;
+      padding: 0 60px;
     }
   }
 

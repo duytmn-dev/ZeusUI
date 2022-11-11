@@ -1,7 +1,7 @@
 $grid-gutter-width: 2rem;
 $spacer: 2rem;
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+/*  sass ./Scss/custom-bs.scss ./Css/custom-bs.css --watch */
 
 $gutters: (
   0: 0,
@@ -13,7 +13,12 @@ $gutters: (
 );
 
 $grid-breakpoints: (
-  sm: 0,
-  md: 320px,
-  lg: 834px,
+  xs: 320,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
 );
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

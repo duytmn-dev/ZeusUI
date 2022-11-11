@@ -49,8 +49,10 @@
   }
 }
 
-.img {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (max-width: 992px) {
+  .item-img {
+    img {
+      min-height: 400px;
+    }
+  }
 }

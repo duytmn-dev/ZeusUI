@@ -3,18 +3,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
-    // gap: 0 40px;
+    z-index: 9999;
+    padding: 40px 80px;
+    // img {
+    //   margin: 0;
+    // }
   }
 }
+
 @media screen and (max-width: 992px) {
   .logo {
     &-container {
       text-align: center;
-      gap: 0 24px;
-      .logo-img {
-        max-width: 150px;
-      }
+      gap: 24px 0;
     }
   }
 }
