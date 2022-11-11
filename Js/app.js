@@ -106,7 +106,7 @@ function addFeaurte(obj) {
     obj.map((item) => {
       itemFeature.classList.add("feature-list", "row", "gx-3");
       itemFeature.innerHTML += `
-              <div class="feature-items col-lg-4">
+              <div class="feature-items col-lg-4 col-md-4">
                 <div class="item-img">
                   <img srcset="${item.avt} 2x" alt="" />
                 </div>

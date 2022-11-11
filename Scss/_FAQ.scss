@@ -1,15 +1,51 @@
-  .FAQ {
-    &-content {
-      h1 {
-        font-weight: 600;
-        font-size: 44px;
-      }
-    }
-
-    &-dropdown {
-      padding: 24px;
-      text-align: center;
-      border: 1px solid #D6BCFA;
-      border-radius: 15px;
+.FAQ {
+  &-content {
+    h1 {
+      font-weight: 600;
+      font-size: 44px;
     }
   }
+
+  &-collapse {
+    padding: 24px;
+    text-align: center;
+    border: 1px solid #d6bcfa;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    position: relative;
+    .caret {
+      text-align: left;
+      margin-bottom: 12px;
+      background-color: $white-color;
+      border: none;
+      font-family: $font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+      opacity: 0.8;
+      margin-right: 32px;
+      padding: 0;
+      &::after {
+        @include caret-down;
+        position: absolute;
+        display: inline-block;
+        margin-left: $caret-spacing;
+        vertical-align: $caret-vertical-align;
+        content: "";
+        color: #9f7aea;
+        top: 32px;
+        right: 31px;
+      }
+      &:hover {
+        background-color: $white-color;
+        color: #000000;
+        opacity: 0.8;
+      }
+    }
+  }
+  .text-desc {
+    text-align: left;
+  }
+}

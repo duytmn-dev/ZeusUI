@@ -11,3 +11,9 @@ $gutters: (
   4: $spacer * 1.5,
   5: $spacer * 3,
 );
+
+$grid-breakpoints: (
+  sm: 0,
+  md: 320px,
+  lg: 834px,
+);

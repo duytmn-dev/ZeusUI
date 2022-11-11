@@ -10789,6 +10789,11 @@ body {
   line-height: 1;
   color: #532c59;
   font-weight: 400;
+  box-sizing: border-box;
+}
+
+img {
+  margin: 0 auto;
 }
 
 .btn-zeus {
@@ -10843,144 +10848,49 @@ body {
   text-decoration: none;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-.small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-.mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
+html {
   box-sizing: border-box;
 }
 
-ol,
-ul {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
   list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 .header {
@@ -11014,6 +10924,14 @@ table {
   font-family: "Space Grotesk", sans-serif;
 }
 
+@media screen and (max-width: 992px) {
+  .menu-left {
+    display: none;
+  }
+  .menu-right {
+    display: none;
+  }
+}
 .hero {
   margin-bottom: 37px;
   position: relative;
@@ -11061,14 +10979,69 @@ table {
   text-shadow: -5px 5px 0px #ffffff;
 }
 
+@media screen and (max-width: 992px) {
+  .hero-container-content h1, .hero-container-content .h1 {
+    padding: 64px 32px 0;
+    margin-bottom: 0;
+  }
+  .hero-container-content p {
+    padding: 32px;
+  }
+  .hero-container .bg-shape-c {
+    position: absolute;
+    top: -11;
+    left: -55px;
+  }
+  .hero-container .bg-shape-c img {
+    max-width: 173px;
+  }
+  .hero-container .bg-shape-v {
+    position: absolute;
+    top: 20px;
+    right: -23px;
+  }
+  .hero-container .bg-shape-v img {
+    max-width: 111px;
+  }
+  .hero-container .bg-shape-w {
+    position: absolute;
+    bottom: -77px;
+    left: -45px;
+  }
+  .hero-container .bg-shape-w img {
+    max-width: 192px;
+  }
+  .hero-container .bg-shape-diamond {
+    position: absolute;
+    bottom: -13px;
+    right: -66px;
+  }
+  .hero-container .bg-shape-diamond img {
+    max-width: 154px;
+  }
+}
 .logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 100px;
-  gap: 0 40px;
 }
 
+@media screen and (max-width: 992px) {
+  .logo-container {
+    text-align: center;
+    gap: 0 24px;
+  }
+  .logo-container .logo-img {
+    max-width: 150px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .logo-container {
+    padding: 32px 16px;
+    gap: 16px;
+  }
+}
 .team-container {
   padding: 80px 0;
 }
@@ -11104,6 +11077,18 @@ table {
   font-weight: 300;
 }
 
+.trans {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+  .trans {
+    flex-direction: column-reverse;
+  }
+}
 .feature-container {
   padding-top: 80px;
 }
@@ -11123,7 +11108,7 @@ table {
   margin-bottom: 64px;
 }
 .feature .item-img {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .feature .item-name {
   font-family: "Syne", sans-serif;
@@ -11145,7 +11130,13 @@ table {
   line-height: 36px;
 }
 
-.provide-footer {
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.provide-header {
   display: flex;
   flex-direction: column;
   padding-top: 80px;
@@ -11153,7 +11144,7 @@ table {
   text-align: center;
   gap: 24px 0;
 }
-.provide-footer .text {
+.provide-header .text {
   padding: 0 20px;
   margin-bottom: 40px;
 }
@@ -11204,11 +11195,50 @@ table {
   font-weight: 600;
   font-size: 44px;
 }
-.FAQ-dropdown {
+.FAQ-collapse {
   padding: 24px;
   text-align: center;
-  border: 1px solid #D6BCFA;
+  border: 1px solid #d6bcfa;
   border-radius: 15px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.FAQ-collapse .caret {
+  text-align: left;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.8;
+  margin-right: 32px;
+  padding: 0;
+}
+.FAQ-collapse .caret::after {
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  color: #9f7aea;
+  top: 32px;
+  right: 31px;
+}
+.FAQ-collapse .caret:hover {
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 0.8;
+}
+.FAQ .text-desc {
+  text-align: left;
 }
 
 .CTA {
