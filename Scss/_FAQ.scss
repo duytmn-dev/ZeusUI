@@ -14,29 +14,22 @@
     margin-bottom: 24px;
     position: relative;
     .caret {
+      @include text($font, 500, 20px, 26px, $text-hedding);
       text-align: left;
       margin-bottom: 12px;
       background-color: $white-color;
       border: none;
-      font-family: $font;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 26px;
-      color: #000000;
       opacity: 0.8;
       margin-right: 32px;
       padding: 0;
       &::after {
         @include caret-down;
-        position: absolute;
+        @include shape(32px, 31px, auto, auto);
         display: inline-block;
         margin-left: $caret-spacing;
         vertical-align: $caret-vertical-align;
         content: "";
         color: #9f7aea;
-        top: 32px;
-        right: 31px;
       }
       &:hover {
         background-color: $white-color;

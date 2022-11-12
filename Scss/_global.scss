@@ -24,17 +24,26 @@ img {
   margin: 0 auto;
 }
 
+@mixin text(
+  $font: $font,
+  $weight: 400,
+  $size: 14px,
+  $height: 24px,
+  $color: $text-color
+) {
+  font-family: $font;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
 .btn-zeus {
+  @include text($font-heading, 700, 16px, 20px, $white-color);
   background-color: #532c59;
-  color: $white-color;
   padding: 16px 20px;
   border-radius: 15px;
   text-decoration: none;
-  font-family: $font-heading;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
   position: relative;
 
   &:hover {
@@ -44,35 +53,18 @@ img {
 }
 
 .text {
-  line-height: 24px;
-  color: $text-color;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: $font;
+  @include text();
 }
 
 .text-title {
-  font-weight: 700;
-  font-size: 48px;
-  font-family: $font-heading;
-  line-height: 64px;
-  color: $text-hedding;
+  @include text($text-hedding, 700, 48px, 64px, $text-hedding);
 }
 
 .text-desc {
-  font-family: $font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: $text-color;
+  @include text($font, 400, 14px, 20px, $text-color);
 }
 
 .text-menu {
-  font-family: $font;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: $text-gray;
+  @include text($font, 500, 16px, 20px, $text-gray);
   text-decoration: none;
 }

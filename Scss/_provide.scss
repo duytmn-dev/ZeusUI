@@ -12,4 +12,13 @@
       margin-bottom: 40px;
     }
   }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+    text-align: center;
+  }
+  &-text {
+    @include text($font-heading, 700, 28px, 36px, $text-hedding);
+  }
 }

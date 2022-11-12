@@ -8,7 +8,11 @@
     text-align: center;
 
     h1 {
+      @include text($font-heading, 700, 48px, 64px, #000000);
       margin-bottom: 24px;
+    }
+    p {
+      @include text();
     }
   }
 

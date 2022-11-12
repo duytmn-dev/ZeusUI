@@ -25,27 +25,7 @@
   }
 
   .item-name {
-    font-family: $font-heading;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 42px;
-  }
-
-  &-card {
-    .card-item {
-      display: flex;
-      flex-direction: column;
-      gap: 12px 0;
-      text-align: center;
-
-      .card-text {
-        font-family: $font-heading;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 36px;
-      }
-    }
+    @include text($font-heading, 600, 32px, 42px, #000);
   }
 }
 
