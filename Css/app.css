@@ -10778,6 +10778,7 @@ textarea.form-control-lg {
   box-shadow: -20px 20px 0px rgba(82, 79, 61, 0.1);
   border-radius: 20px;
   overflow: hidden;
+  margin: 0;
 }
 
 .containers {
@@ -10918,10 +10919,16 @@ ol {
 }
 
 .dropdown button {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
   background-color: transparent;
   border: none;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Space Grotesk", sans-serif;
+}
+.dropdown button:hover {
+  color: #0d6efd;
 }
 
 @media screen and (max-width: 991.98px) {
