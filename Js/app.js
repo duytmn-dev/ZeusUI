@@ -14,7 +14,8 @@ function addTwitter(obj) {
         const col = index % 3;
         if (col == i) {
           x.classList.add("twitter-col");
-          x.innerHTML += `
+          x.innerHTML +=/* html */ 
+          `
                 <div class="twitter-item">
                   <div class="twitter-header">
                     <div class="twitter-avt">
@@ -27,7 +28,7 @@ function addTwitter(obj) {
                   </div>
                   <p class="text">${item.text}</p>
                 </div>
-                `;
+          `;
           return listTwitter[i].appendChild(x);
         }
       });
@@ -105,7 +106,8 @@ function addFeaurte(obj) {
 
     obj.map((item) => {
       itemFeature.classList.add("feature-list", "row", "gx-3");
-      itemFeature.innerHTML += `
+      itemFeature.innerHTML += /* html */
+      `
               <div class="feature-items col-lg-4 col-md-4">
                 <div class="item-img">
                   <img srcset="${item.avt} 2x" alt="" />
@@ -122,4 +124,4 @@ function addFeaurte(obj) {
 }
 
 addTwitter(data.itemTwitter);
-addFeaurte(data.feature);
+addFeaurte( data.feature );
